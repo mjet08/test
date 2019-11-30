@@ -13,7 +13,7 @@ module.exports = define('calculationService', () => {
     }
 
     pageInfo.totalPages = Math.ceil(totalCount / limit)
-    pageInfo.nextPage = currentPage + 1
+    pageInfo.nextPage = (pageInfo.page === 1) ? pageInfo.page + 1 : pageInfo.page + 2
     return pageInfo
   }
 
