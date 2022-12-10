@@ -56,7 +56,7 @@
     "dotenv": "6.2.0",
     "eslint-config-prettier": "^4.1.0",
     "eslint-plugin-prettier": "^3.0.1",
-    "express": "4.16.4",
+    "express": "4.17.3",
     "express-cls-hooked": "^0.3.8",
     "express-status-monitor": "1.2.3",
     "global": "^4.4.0",
